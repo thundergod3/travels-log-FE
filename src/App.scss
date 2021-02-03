@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.marker {
+	translate: -50% -100%;
+}
+
+.error {
+	color: #f05305;
+}
+
+.yellow {
+	path {
+		fill: #f8c102;
+	}
+}
+
+.red {
+	path {
+		fill: #f05305;
+	}
+}
+
+.popup {
+	width: 40vw;
+	padding: 1rem;
+
+	img {
+		height: 200px;
+		width: auto;
+		text-align: center;
+		margin: 0 auto;
+	}
+}
+
+.entry-form {
+	label,
+	input,
+	textarea,
+	button {
+		font-size: 1.5rem;
+		margin: 0.5rem 0;
+		display: block;
+		width: 100%;
+	}
+}
